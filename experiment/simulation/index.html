@@ -73,7 +73,7 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Gromacs</title>
+      <title>GROMACS</title>
     </head>
 
     
@@ -83,7 +83,7 @@
         <img src="images\logo.png" width="300" height="100" >
         &nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class='at-item' >Molecular Dynamics Simulation: Gromacs</div>
+        <div class='at-item' >Molecular Dynamics Simulation: GROMACS</div>
 
       </div>
 
@@ -94,11 +94,11 @@
         <div class='leftside'id='lefts'style="text-align:center">
           <br><br>
           <input type="radio" id="spdb" name="option" onclick="selectoption(this.value)" value="1">
-          <label for="spdb">I have a PDB ID</label>
+          <label for="spdb">I have a PDB ID</label>&nbsp;
           <input type="radio" id="sfile" name="option" onclick="selectoption(this.value)" value="2">
-          <label for="sfile">I have a PDB file</label>
+          <label for="sfile">I have a PDB file</label>&nbsp;
           <input type="radio" id="dfile" name="option" onclick="selectoption(this.value)" value="3">
-          <label for="dfile">I need to downlad a sample PDB file</label>
+          <label for="dfile">I need to downlad a sample PDB file</label>&nbsp;
           <br><br><br>
           
           <div id="opt"></div>
@@ -139,7 +139,7 @@ For e.g.
         }
         else if(option==2)
         {
-          document.getElementById("opt").innerHTML="<br><br> <input type=\"file\" id=\"actual-btn\" accept=\".pdb\" hidden /> <label for=\"actual-btn\" style=\"cursor: pointer;\">Select DNA sequence:</label> &nbsp;<i class=\"fa fa-hand-o-left\" style=\"font-size:25px;color:#4f2037;\"></i><b> Click here to upload a PDB file </b><br><br><br><br><br>";
+          document.getElementById("opt").innerHTML="<br><br> <input type=\"file\" id=\"actual-btn\" accept=\".pdb\" hidden /> <label for=\"actual-btn\" style=\"cursor: pointer;\">Select a PDB File:</label> &nbsp;<i class=\"fa fa-hand-o-left\" style=\"font-size:25px;color:#4f2037;\"></i><b> Click here to upload a PDB file </b><br><br><br><br><br>";
         }
         else
         {
