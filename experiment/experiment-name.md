@@ -1,1 +1,1 @@
-## Experiment name
+## Molecular Dynamics Simulation: GROMACS
