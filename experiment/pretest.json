@@ -2,35 +2,34 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which among the following is used to study molecular dynamics",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "ChenDraw",
+        "b": "Gromacs",
+        "c": "MarvinSketch",
+        "d": "Chem3D"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "NVT equilibrium refers to ------- process",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "isothermal-isothermal",
+        "b": "isothermal-isobaric",
+        "c": "isothermal-isochoric",
+        "d": "isobaric-isochoric"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which among this not a force field?",
+      "answers": {
+        "a": "AMBER",
+        "b": "GROMOS",
+        "c": "OPLS",
+        "d": "GROMACS"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
