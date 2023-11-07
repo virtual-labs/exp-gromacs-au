@@ -74,6 +74,12 @@
 	          border-radius:20px;
 	          
 	        }
+		    /* Use a media query to add a break point at 800px: */
+		@media screen and (max-width: 800px) {
+		  .leftside {
+		    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+		  }
+		}
 	    </style>
 
     </head>
@@ -93,7 +99,7 @@
       <br><br><br>
       <div class='at-form' style="background-color:#f0eaea">
 
-        <div class='leftside'id='lefts'style="text-align:center">
+        <div class='leftside'id='lefts'style="text-align:center" >
           <br><br>
           <input type="radio" id="spdb" name="option" onclick="selectoption(this.value)" value="1">
           <label for="spdb">I have a PDB ID</label>&nbsp;&nbsp;&nbsp;
